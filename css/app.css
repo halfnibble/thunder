@@ -1,0 +1,35 @@
+section {
+  max-width: 400px;
+  margin-top: 20px; }
+
+label {
+  font-weight: 700;
+  font-size: 1rem;
+  padding-bottom: 8px; }
+
+select {
+  width: 100%; }
+
+#title2-dropdown {
+  /*display: none*/
+  max-height: 300px;
+  overflow-y: auto;
+  padding: 8px; }
+
+#title2-wrapper:hover #title2-dropdown {
+  display: block; }
+
+#search-section {
+  border-bottom: 1px solid #DDD; }
+
+#search-section input {
+  width: 90%;
+  float: left; }
+
+#search-icon {
+  width: 10%;
+  float: left; }
+
+br {
+  clear: both;
+  height: 4px; }
