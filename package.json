@@ -11,6 +11,6 @@
     "grunt-contrib-qunit": "~0.5.2",
     "grunt-contrib-watch": "~0.6.1",
     "grunt-open": "^0.2.3",
-    "grunt-sass": "^1.2.0",
+    "grunt-sass": "^1.2.0"
   }
 }
