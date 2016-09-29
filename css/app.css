@@ -29,7 +29,9 @@ select {
   background-origin: content-box;
   background-position: right -1rem center;
   background-repeat: no-repeat;
-  padding-right: 1.5rem; }
+  padding-right: 1.5rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem; }
   select:hover {
     background-color: #EEE; }
 
@@ -67,7 +69,7 @@ section {
   display: none;
   max-height: 190px;
   overflow-y: auto;
-  padding: 10px 10px 10px;
+  padding: 10px 12px 10px;
   border: 1px solid #DDD;
   border-top: 0;
   box-shadow: 0 2px 3px #777; }
