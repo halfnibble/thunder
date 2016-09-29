@@ -3,42 +3,86 @@
 body
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
 
+//
+// Colors
+//
+$light-blue: #EAF7FF
+
+//
 // Left forms sections
+//
 section
     max-width: 400px
-    margin-top: 20px
+    margin: 20px 20px 0
 
+//
+// Dropdowns
+//
+.dropdown-wrapper:hover
+    select
+        border-radius: 3px 3px 0 0
+        background-color: #EEE
+    .dropdown
+        display: block
 
-// Form general
-label
-    font-weight: 700
-    font-size: 0.9rem
-    line-height: 2
-
-select
-    width: 100%
-
-#title2-dropdown
-    // display: none
-    max-height: 300px
+.dropdown
+    // Don't show dropwdown by default
+    display: none
+    max-height: 190px
     overflow-y: auto
-    padding: 8px
+    padding: 10px 10px 10px
+    border: 1px solid #DDD
+    border-top: 0
+    box-shadow: 0 2px 3px #777
 
-#title2-wrapper:hover #title2-dropdown
-    display: block
-
+.dropdown-option
+    padding: 10px
+    cursor: pointer
+    &:hover
+        background-color: $light-blue
+    span
+        display: block
+        font-size: 0.9rem
+    .option-text
+        color: #777
+        font-size: 0.85rem
+        padding-top: 2px
+    
+//
+// Search dropdown
+//
 #search-section
     border-bottom: 1px solid #DDD
-
-#search-section input
-    width: 90%
-    float: left
-
+    margin-bottom: 8px
+    input
+        width: 90%
+        float: left
+    br
+        clear: both
+        height: 4px
 
 #search-icon
     width: 10%
     float: left
 
-br
-    clear: both
-    height: 4px
+//
+// General
+//
+.icon-i
+    margin-left: 15px
+    font-family: Serif
+    display: inline-block
+    // Create 18px circle -- padding for left-right alignment
+    width: 11px
+    height: 18px
+    padding-left: 7px
+    // Line height for top-bottom alignment
+    line-height: 1.4
+    border-radius: 50%
+    background-color: #777
+    color: #FFF
+    font-style: italic
+
+.bold-text
+    font-weight: 700
+
